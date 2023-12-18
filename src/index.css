@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.movie-card img {
+  object-fit: unset;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+.menu .left-menu {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+.menu h2.logo {
+  color: #d06464;
+  padding: 10px 10px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 28px;
+  border-radius: 20px;
+}
+
+.menu h2.logo span {
+  color: #1e393a;
+}
+
+.menu ul.menu-list {
+  display: flex;
+  gap: 20px;
+}
+
+
+.menu ul.menu-list l1 {
+  color: #d06464;
+  font-weight: 600;
+  padding: 10px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+.menu ul.menu-list l1:hover {
+  background: #f0f0f0f0;
+}
+
+
+
+.menu button.login {
+  Border: 1px solid #d06464;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  color: #d06464;
+  font-weight: 700;
+  max-height: 40px;
+}
+
+.menu button.login:hover {
+  background: #d06464;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.movie-card {
+  width: 300px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background: #1e393a;
+  color: #fff;
+}
+
+.poster {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.movie-details {
+  padding: 20px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.genre, .length {
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+}
+
+.like-icon {
+  width: 20px;
+  height: 20px;
+  fill: #af4c4c;
+  margin-right: 4px;
+  stroke: unset;
+}
+
+.likes-percentage {
+  margin: 0;
+  color: #af4c4c;
+  font-weight: bold;
+}
+
+.moviefilters {
+  max-width: 90%;
+  margin: auto;
+}
+
+.searcInput {
+  display: inline-block;
+}
+
+.searcInput input[type="search"] {
+  border: 1px solid #1e393a;
+  padding: 10px;
+  border-radius: 10px;
+}
