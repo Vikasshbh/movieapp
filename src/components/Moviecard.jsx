@@ -1,3 +1,5 @@
+
+
 const Moviecard = (props) => {
     const { movieInfo } = props
     const { title, genre, length, likesPercentage, posterUrl } = movieInfo;

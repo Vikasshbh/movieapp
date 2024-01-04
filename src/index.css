@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
 .movie-card img {
   object-fit: unset;
 }
@@ -20,6 +25,7 @@
   gap: 80px;
   align-items: center;
 }
+
 .menu h2.logo {
   color: #d06464;
   padding: 10px 10px;
@@ -84,6 +90,8 @@ body {
   border-radius: 20px;
   background: #1e393a;
   color: #fff;
+  height: 500px;
+  margin: 10px;
 }
 
 .poster {
@@ -140,3 +148,83 @@ body {
   padding: 10px;
   border-radius: 10px;
 }
+
+.filters {
+  max-width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.single-seat {
+  width: 20%;
+  height: 40px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.UpcomingMovie_upcomingMovie__qJgwx {
+  height: 100%;
+  width: 291px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.UpcomingMovie_detail__yxjWv {
+  border: 1px solid #f0f0f0;
+  padding: 10px;
+  border-radius: 0 0 8px 8px;
+}
+
+.UpcomingMovie_relDateDweb__M3OjY {
+  color: #fff;
+  position: absolute;
+  bottom: 80px;
+  padding: 10px;
+}
+
+.UpcomingMovie_upcomingMovie__qJgwx .UpcomingMovie_detail__yxjWv .UpcomingMovie_row1__wEyNT {
+  font-size: 16px;
+  color: #101010;
+  font-weight: 600;
+  letter-spacing: -.08px;
+  line-height: 24px;
+}
+
+.UpcomingMovie_upcomingMovie__qJgwx .UpcomingMovie_detail__yxjWv .UpcomingMovie_row2__5S7GK span {
+  display: block;
+  font-size: 14px;
+  color: #101010;
+  font-weight: 400;
+  line-height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.UpcomingMovie_upcomingMovie__qJgwx .UpcomingMovie_imgCon__NhA2K .UpcomingMovie_relDateDweb__M3OjY .UpcomingMovie_relDateLabel___Kejm {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.UpcomingMovie_upcomingMovie__qJgwx .UpcomingMovie_imgCon__NhA2K .UpcomingMovie_relDateDweb__M3OjY .UpcomingMovie_relDate__DzlI0 {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -.08px;
+  margin-top: 4px;
+  display: block;
+}
+
+
+
+
+
+/* test */
